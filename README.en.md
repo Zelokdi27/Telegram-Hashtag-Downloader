@@ -19,8 +19,6 @@ This is an **unofficial** client built on the [Telegram API](https://core.telegr
 - Heavy or automated use may trigger **FloodWait** or account restrictions.
 - The author is not affiliated with Telegram.
 
-Use at your own risk.
-
 ---
 
 ## Two ways to run
@@ -48,8 +46,6 @@ On first launch the app creates:
 - `data/sessions/` — Telegram session
 - `data/downloads/` — downloaded files
 - `data/logs/` — application log
-
-> Windows SmartScreen may warn about an unknown publisher — normal for unsigned builds. See “Code signing” below.
 
 ---
 
@@ -98,43 +94,9 @@ Keys are stored locally in `.env` on your machine only.
 - **Preview** with thumbnails, disk status, duplicates, album support
 - Queue of multiple hashtags
 - Step-by-step preview for large archives
-- **Performance check** (autotune) for worker/batch recommendations
 - Download journal — skip already downloaded files
 - Russian and English UI
 - Dark theme, Windows notifications
-
----
-
-## Build Windows release (.exe)
-
-On a Windows machine with Python:
-
-```powershell
-.\scripts\build_release.ps1
-```
-
-Output: `dist\TelegramHashtagDownloader\` — zip this folder for GitHub Releases.
-
-Before publishing a release:
-
-1. Set author in `app/version.py` (`APP_AUTHOR`, `APP_CONTACT_TELEGRAM`, optional `APP_URL`).
-2. Bump version in `app/version.py`.
-3. Run `pytest`.
-4. Test the built exe on a **clean** PC (no Python installed).
-5. Attach the zip to a GitHub Release tagged `v1.0.0`.
-
-### Windows code signing (optional)
-
-A paid code-signing certificate reduces SmartScreen warnings. Self-signed certificates do not help public users.
-
-Free authorship markers are already in the build: exe file properties and **About…** in Settings.
-
-```powershell
-$env:SIGN_PFX_PATH = "C:\path\to\cert.pfx"
-$env:SIGN_PFX_PASSWORD = "your-password"
-.\scripts\build_release.ps1
-.\scripts\sign_release.ps1
-```
 
 ---
 
@@ -155,5 +117,3 @@ scripts/       build_release.ps1
 ## License
 
 [MIT](LICENSE) — free to use, modify and distribute with copyright notice preserved.
-
-Third-party: Telethon, PySide6, Pillow and others — see their respective licenses.
