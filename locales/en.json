@@ -1,0 +1,1161 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "yes": "Yes",
+    "no": "No",
+    "error": "Error",
+    "validation": "Data validation",
+    "busy": "Busy",
+    "close": "Close",
+    "browse": "Browse…",
+    "open_folder": "Open folder",
+    "download": "Download",
+    "preview": "Preview",
+    "stop": "Stop",
+    "pause": "Pause",
+    "resume": "Resume",
+    "quit": "Quit",
+    "open": "Open",
+    "back": "Back",
+    "next": "Next",
+    "finish": "Finish",
+    "skip": "Skip",
+    "delete": "Delete",
+    "rename": "Rename",
+    "save": "Save",
+    "up": "Up",
+    "down": "Down",
+    "clear": "Clear",
+    "photo": "Photo",
+    "video": "Video",
+    "gif": "GIF",
+    "audio": "Audio",
+    "files": "Files",
+    "waiting": "Waiting",
+    "done": "Done",
+    "stopped": "Stopped",
+    "home": "Home",
+    "settings": "Settings",
+    "log": "Log",
+    "template": "Template",
+    "channel": "Channel",
+    "hashtag": "Hashtag",
+    "all": "All",
+    "none_selected": "(not selected)",
+    "not_selected": "not selected",
+    "resend": "Resend",
+    "download_missing": "Download missing…",
+    "later": "Later",
+    "dash": "—"
+  },
+  "about": {
+    "title": "About",
+    "button": "About…",
+    "version": "Version {version}",
+    "author": "Author: {author}",
+    "contact": "Telegram: {contact}",
+    "disclaimer": "Unofficial Telegram client. Not affiliated with Telegram FZ-LLC.",
+    "signature_note": "Built without a commercial Windows code-signing certificate — SmartScreen may ask for confirmation on first launch."
+  },
+  "main": {
+    "window": {
+      "title": "Telegram hashtag downloader",
+      "brand": "Hashtag Downloader"
+    },
+    "theme": {
+      "dark": "Dark theme"
+    },
+    "subtitle": "Search posts by hashtag and download media from public channels",
+    "status": {
+      "ready": "Ready",
+      "no_task": "No active task",
+      "stopping": "Stopping…",
+      "paused": "Paused",
+      "running": "Task running…",
+      "paused_detail": "Paused — click «Resume» to continue",
+      "paused_once": "Download paused",
+      "paused_preview": "Preview paused",
+      "paused_verify": "Verification paused",
+      "paused_integrity": "Top-up paused",
+      "running_once": "Downloading…",
+      "running_preview": "Previewing…",
+      "running_verify": "Verifying integrity…",
+      "running_integrity": "Downloading missing files…",
+      "crash": "⚠ Previous run crashed — see yellow panel above"
+    },
+    "hint": {
+      "collapsible": "Sections with ▶/▼ in the header can be collapsed — click the block header."
+    },
+    "section": {
+      "auth": "Telegram account",
+      "search": "Search",
+      "queue": "Hashtag queue",
+      "actions": "Actions",
+      "filters": "Main filters",
+      "extra_filters": "Additional filters",
+      "progress": "Progress",
+      "search_prefs": "Search form",
+      "api": "Telegram API",
+      "files": "Files and folders",
+      "proxy": "Proxy (if Telegram won't connect)",
+      "naming": "Names and folders",
+      "performance": "Performance",
+      "reliability": "Reliability",
+      "notify": "Windows notifications"
+    },
+    "tab": {
+      "main": "Home",
+      "settings": "Settings",
+      "log": "Log",
+      "log_alert": "⚠ Log"
+    },
+    "auth": {
+      "checking": "Checking…",
+      "login": "Sign in to Telegram",
+      "login_qr": "Sign in with QR",
+      "reset_session": "Reset session",
+      "reset_session_tip": "Removes saved Telegram login. You will need to sign in again by phone or QR.",
+      "hint": "Sign in by phone or QR. The code arrives in the «Telegram» chat inside the app.",
+      "required_title": "Sign-in required",
+      "required_body": "Sign in to Telegram on the Home tab first («Sign in to Telegram» or QR)."
+    },
+    "template": {
+      "label": "Template",
+      "save": "Save template…",
+      "rename": "Rename…",
+      "delete": "Delete",
+      "clear_form": "Clear form",
+      "none": "(not selected)",
+      "hint": "A template saves all search fields (hashtags, channels, dates, limit, media types).",
+      "dialog": {
+        "save_title": "Save template",
+        "name": "Template name:",
+        "overwrite_title": "Overwrite template?",
+        "overwrite_body": "Template «{name}» already exists.\nReplace it with current settings?",
+        "rename_title": "Rename template",
+        "new_name": "New name:",
+        "delete_title": "Delete template?",
+        "delete_body": "Delete template «{name}»?"
+      },
+      "warn": {
+        "empty_name": "Enter a template name.",
+        "select_first": "Select a template in the list first.",
+        "exists": "Template «{name}» already exists.",
+        "rename_failed": "Failed to rename template."
+      },
+      "info": {
+        "saved": "Saved: «{name}»",
+        "renamed": "Renamed: «{old}» → «{new}»",
+        "deleted": "Deleted: «{name}»"
+      }
+    },
+    "queue": {
+      "tip": "Hashtags download in order with the same filters. Reorder with «Up» and «Down».",
+      "add": "Add current",
+      "download": "Download queue",
+      "download_tip": "Download all queued hashtags sequentially with current filters.",
+      "hint": "Queue is independent of «More hashtags» — for batch download from a list.",
+      "warn": {
+        "no_hashtag": "Enter a hashtag in the search field first.",
+        "select": "Select a hashtag in the list."
+      },
+      "info": {
+        "duplicate": "#{tag} is already in the queue."
+      },
+      "dialog": {
+        "clear_title": "Clear queue?",
+        "clear_body": "Remove all hashtags from the queue?"
+      },
+      "error": {
+        "empty": "Add at least one hashtag to the queue."
+      }
+    },
+    "action": {
+      "download_once": "Download once",
+      "download_once_tip": "Search and download. Already downloaded items (journal and files on disk) are skipped.",
+      "preview": "Preview",
+      "preview_tip": "Thumbnail window first — select what to download, then download only selected items.",
+      "verify": "Verify integrity",
+      "verify_tip": "Same search without downloading: checks that files on disk match found posts.",
+      "stop": "Stop",
+      "pause": "Pause",
+      "pause_tip": "Temporarily pause the current task",
+      "open_folder": "Open folder",
+      "reset_journal": "Reset journal",
+      "reset_journal_tip": "Clears the download journal for this session — files in the download folder are untouched. On next download the app will re-scan disk."
+    },
+    "filter": {
+      "date_from": "From date",
+      "date_to": "To date",
+      "date_hint": "Date filter activates only after picking a date in the calendar (✕ on the field clears it).",
+      "date_active": "⚠ Date filter active: {range} — posts outside the range won't be included",
+      "date_from_part": "from {date}",
+      "date_to_part": "to {date}",
+      "channel": "Channel only",
+      "channel_hint": "@username — search within channel (empty = all Telegram channels)",
+      "max_media": "Max media",
+      "max_media_unlimited": "no limit",
+      "max_media_tip": "Media file limit per run. Change only with arrows or keyboard input.",
+      "max_media_hint": "Limit on number of media files in results.",
+      "sequential_preview": "Step-by-step preview",
+      "sequential_preview_tip": "View large results in batches: index once, then preview in chunks without holding the full list in memory.",
+      "batch_size": "Media per batch",
+      "batch_size_suffix": " pcs",
+      "batch_size_tip": "How many thumbnails to show at once in step-by-step preview (after downloading selected — next batch).",
+      "sequential_hint": "Step mode: downloaded selected from batch → next N thumbnails.",
+      "extra_filters_tip": "More hashtags, required/excluded tags, channels and media types",
+      "extra_hashtags": "More hashtags",
+      "extra_hashtags_hint": "comma-separated — separate search per tag, own folder; paste a list or drag .txt",
+      "required": "Required",
+      "required_hint": "at least one from the list — posts without them are skipped",
+      "exclude": "Exclude",
+      "exclude_hint": "comma-separated hashtags — posts containing them are skipped",
+      "extra_channels": "More channels",
+      "extra_channels_hint": "comma-separated — batch: each hashtag × each channel; paste a list or drag .txt"
+    },
+    "media": {
+      "photo": "Photo",
+      "video": "Video",
+      "gif": "GIF",
+      "audio": "Audio",
+      "files": "Files"
+    },
+    "progress": {
+      "waiting": "Waiting",
+      "queue_format": "Queue %p%",
+      "queue_bar": "Queue {i}/{total} ({pct}%)",
+      "download_count": "new {files}/{total}",
+      "media_count": "%p% · {found}/{total} media",
+      "verify_stats": "Posts: {proc}/{total}  |  Media: {files}/{media}  |  Skipped: {skipped}",
+      "search_stats": "Media: {found}/{total}  |  Messages in selection: {proc}",
+      "preview_stats": "Media: {found}/{total}  |  Thumbnails: {proc}",
+      "download_stats": "Slots: {proc}/{total}  |  New files: {files}  |  Skipped: {skipped}",
+      "generic_stats": "Found: {found}  |  Processed: {proc}/{total}  |  Files: {files}  |  Skipped: {skipped}",
+      "alert_title": "Telegram",
+      "phase": {
+        "idle": "Waiting",
+        "search": "Searching posts",
+        "preview": "Preview",
+        "download": "Downloading",
+        "verify": "Verifying integrity",
+        "done": "Done",
+        "stopped": "Stopped"
+      }
+    },
+    "prefs": {
+      "remember_form": "Remember search form on exit (hashtag, filters, limit)",
+      "remember_form_hint": "If off — search fields are empty on next launch (templates can still be picked manually)."
+    },
+    "settings": {
+      "api_hint": "Get at my.telegram.org → API development tools",
+      "api_id": "API ID",
+      "api_hash": "API Hash",
+      "page_limit": "Posts per API request",
+      "page_limit_hint": "Telegram technical limit per search request (usually 50).",
+      "download_dir": "Download folder",
+      "browse": "Browse…",
+      "session_name": "Session name",
+      "proxy_enable": "Use proxy (SOCKS5 / HTTP)",
+      "proxy_type": "Type (socks5 / http)",
+      "proxy_host": "Proxy host",
+      "proxy_port": "Proxy port",
+      "proxy_hint": "Usually: 127.0.0.1:1080 or your VPN client port.",
+      "folder_by_month": "Subfolder by month — channel/2026-06/ (not by day; old files are still found)",
+      "caption_in_filename": "Add post text to filename",
+      "caption_max_len": "Max caption length in name",
+      "dedup": "Don't save duplicates (by file hash)",
+      "preview_threads": "Parallel previews",
+      "threads_suffix": " threads",
+      "download_threads": "Parallel downloads",
+      "download_threads_tip": "Parallel file downloads (1–3). More than 3 not recommended — Telegram may rate-limit.",
+      "performance_hint": "Preview — thumbnails in preview window. Download — parallel downloads in one async thread.",
+      "retries": "Retries on error",
+      "notify_enable": "Show notifications in Action Center",
+      "notify_success": "On successful task completion",
+      "notify_errors": "On errors",
+      "notify_hint": "Notification appears in the bottom-right corner even when the window is minimized.",
+      "wizard": "Setup wizard…",
+      "autosave_hint": "Settings are saved automatically on exit and before starting tasks.",
+      "language": "Interface language",
+      "language.system": "System default",
+      "language.ru": "Русский",
+      "language.en": "English"
+    },
+    "crash": {
+      "open_dump": "Open dump",
+      "restore_form": "Restore form from dump",
+      "open_folder": "crashes folder",
+      "dismiss": "Close",
+      "dialog_title": "Crash on previous run",
+      "dialog_body": "{summary}\n\n{detail}\n\nDetails and actions — in the yellow panel at the top (visible on any tab)."
+    },
+    "dump": {
+      "warn_not_found": "Dump file not found.",
+      "warn_no_form": "Dump has no saved search form.",
+      "warn_parse_failed": "Failed to parse form from dump.",
+      "info_restored_title": "Form restored",
+      "info_restored_body": "Search fields filled from dump.\nCheck settings and start the task manually if needed."
+    },
+    "log": {
+      "clear": "Clear window",
+      "clear_tip": "Clears text only in this window; app.log on disk is unchanged",
+      "open_file": "Open app.log",
+      "open_dir": "Logs folder",
+      "autoscroll": "Auto-scroll down",
+      "file_label": "File: data/logs/{name}"
+    },
+    "busy": {
+      "title": "Busy",
+      "stop_first": "Stop the current task first."
+    },
+    "error": {
+      "title": "Error",
+      "validation_title": "Data validation",
+      "unknown": "Unknown error",
+      "no_hashtag": "Enter a hashtag on the «Home» tab."
+    },
+    "dialog": {
+      "pick_download_dir": "Choose download folder"
+    },
+    "tray": {
+      "tooltip": "Telegram Hashtag Downloader",
+      "open": "Open",
+      "quit": "Quit"
+    },
+    "notify": {
+      "integrity_done": "Integrity check complete",
+      "files_on_disk": "On disk: {n} files.",
+      "files_missing": "Missing files: {n}.",
+      "stopped": "Task stopped",
+      "preview_done": "Preview complete",
+      "download_done": "Download complete",
+      "stats": "New files: {files}, skipped: {skipped}, errors: {errors}",
+      "generic_done": "Task complete",
+      "return": "You can return to the app."
+    },
+    "speed": {
+      "mbps": "{n} MB/s",
+      "kbps": "{n} KB/s",
+      "bps": "{n} B/s"
+    },
+    "flood": {
+      "search": "Search paused",
+      "preview": "Preview paused",
+      "download": "Download paused",
+      "verify": "Verification paused",
+      "generic": "Operation paused",
+      "message": "{action} — Telegram rate-limited requests (FloodWait). Resuming in {sec} sec."
+    },
+    "exit": {
+      "login_title": "Exit",
+      "login_body": "Telegram sign-in in progress. Abort and exit?",
+      "worker_body": "Task still running. Stop and exit?\n\nClosing via Task Manager without confirmation will be recorded as a crash."
+    }
+  },
+  "preview": {
+    "window": {
+      "title": "Preview before download"
+    },
+    "nav": {
+      "prev": "← Back",
+      "page": "Page {cur} of {total}",
+      "next": "Forward →",
+      "jump_label": "Go to:",
+      "jump_tip": "Enter page number and press Enter or «Go»",
+      "go": "Go"
+    },
+    "select": {
+      "shown": "Select shown",
+      "none_shown": "Deselect shown",
+      "channel": "Select channel",
+      "channel_named": "All: {channel}",
+      "shown_tip": "Select only cards from current «Shown» list (channel and filter applied).",
+      "none_shown_tip": "Deselect only shown cards. Other channels are unaffected.",
+      "channel_tip": "Select all posts of chosen channel even when «All channels» is shown."
+    },
+    "deselect": {
+      "on_disk": "Deselect on-disk",
+      "on_disk_tip": "Deselect all cards already on disk (entire list)."
+    },
+    "pause": {
+      "label": "Pause",
+      "resume": "Resume",
+      "tip": "Pause loading cards and thumbnails"
+    },
+    "filter": {
+      "show": "Show:",
+      "channel": "Channel:",
+      "sort": "Sort:",
+      "all_channels": "All channels",
+      "all": "All",
+      "photo": "Photos only",
+      "video": "Videos only",
+      "gif": "GIFs only",
+      "audio": "Audio only",
+      "files": "Files only",
+      "selected": "Selected only",
+      "unselected": "Unselected only",
+      "new": "New only",
+      "partial": "Partial only",
+      "on_disk": "Already on disk",
+      "hide_on_disk": "Hide downloaded",
+      "duplicates": "Duplicates only",
+      "hide_duplicates": "Hide duplicates"
+    },
+    "sort": {
+      "date_desc": "Date ↓",
+      "date_asc": "Date ↑",
+      "channel": "Channel",
+      "kind": "Media type"
+    },
+    "kind": {
+      "photo": "Photo",
+      "video": "Video",
+      "gif": "GIF",
+      "file": "File",
+      "audio": "Audio"
+    },
+    "prep": {
+      "done": "Preview: {posts} posts · {albums} albums · {cards} media files ready",
+      "progress": "Preview: {posts} posts · {albums} albums · collected {ready}/{total} media files",
+      "stats": "Media files: {ready}/{total}  |  Posts: {posts}  |  Albums: {albums}"
+    },
+    "badge": {
+      "duplicate": "Duplicate",
+      "on_disk": "On disk",
+      "partial": "Partial"
+    },
+    "legend": {
+      "text": "Legend: green border = already on disk, yellow-orange border = partially on disk, purple badge = duplicate."
+    },
+    "post_fallback": "Post {id}",
+    "channel_unknown": "channel",
+    "original": {
+      "photos_only": "Original view available only for photos",
+      "load_failed": "Failed to load original from Telegram servers",
+      "label_full": "original",
+      "label_thumb": "large thumbnail",
+      "not_returned": "Telegram did not return file ({label}) for post {id}",
+      "flood_wait": "Telegram asks to wait {sec} sec."
+    },
+    "batch": {
+      "skip": "Skip batch",
+      "stop": "Stop all"
+    },
+    "cancel": "Cancel",
+    "download": "Download selected",
+    "download_count": "Download selected ({n})",
+    "hint": {
+      "loading": "Cards are loading — you can select ready ones.",
+      "click": "Click card or checkbox to select/deselect.",
+      "dblclick": "Double-click photo for original.",
+      "shown": "Shown: {n}.",
+      "paused": "Collected: {total}. Loading paused — click «Resume» to load cards and thumbnails again.",
+      "streaming": "Media files collected: {total}. List is growing — select ready cards.",
+      "found": "Found: {total}. Click card or checkbox to select/deselect.",
+      "duplicates": "Media duplicates: {n}.",
+      "visible": "Shown: {visible} of {total}."
+    },
+    "selected": {
+      "summary": "Selected: {sel}/{total}",
+      "total": "Selected total: {sel} of {total}.",
+      "visible": "In shown: {sel} of {n}.",
+      "page": "{on_page} on page · selected on page: {sel}",
+      "full": "Selected: {sel}/{total} · in list: {vis_sel}/{vis}"
+    },
+    "placeholder": "Will appear here as they are collected…",
+    "card": {
+      "thumb_tip": "Double-click — view original",
+      "duplicate": "Same media as in post #{id}",
+      "download": "Download",
+      "telegram": "Open post in Telegram"
+    }
+  },
+  "wizard": {
+    "step": {
+      "welcome": "Welcome",
+      "language": "Interface language",
+      "api": "Telegram API keys",
+      "proxy": "Proxy (optional)",
+      "login": "Sign in to Telegram",
+      "download": "Download folder",
+      "finish": "Finish"
+    },
+    "step_counter": "Step {n} of {total} · {hint}",
+    "dir": {
+      "default": "Default",
+      "pictures": "Pictures",
+      "desktop": "Desktop"
+    },
+    "welcome": {
+      "title": "Welcome",
+      "body": "This wizard will help:\n• get API ID and API Hash at my.telegram.org;\n• configure proxy if needed (you can skip);\n• sign in to your Telegram account (we recommend QR);\n• choose a download folder.\n\nHashtag and search options are set on the Home tab."
+    },
+    "language": {
+      "title": "Language and appearance",
+      "body": "Choose the interface language and theme for the wizard and the main window.",
+      "hint": "You can keep «System default» or pin Russian/English right away. Enable dark theme now or later from the main window header."
+    },
+    "api": {
+      "title": "Telegram API keys",
+      "link": "Get keys at my.telegram.org (API development tools section).",
+      "hint": "Create an app (any name) and copy API ID and API Hash.",
+      "error": {
+        "id_required": "Enter API ID.",
+        "hash_required": "Enter API Hash.",
+        "id_not_number": "API ID must be a number — as on my.telegram.org.",
+        "id_positive": "API ID must be a positive number.",
+        "hash_short": "API Hash too short — copy it in full from my.telegram.org.",
+        "save_failed": "Failed to save API keys in settings.",
+        "save": "API save error: {exc}"
+      }
+    },
+    "proxy": {
+      "title": "Proxy",
+      "body": "By default the app uses your computer's internet.\nEnable proxy only if Telegram won't connect without it. Otherwise click «Skip».",
+      "enable": "Use proxy",
+      "type": "Type",
+      "host": "Host",
+      "port": "Port",
+      "test": "Test proxy",
+      "error": {
+        "host": "Enter proxy host.",
+        "port": "Enter proxy port.",
+        "port_number": "Proxy port must be a number.",
+        "port_range": "Proxy port: 1 to 65535."
+      },
+      "status": {
+        "need_api": "Enter API ID and API Hash on the previous step first.",
+        "need_host_port": "Enter proxy host and port.",
+        "testing": "Testing connection…",
+        "ok": "Connected to Telegram successfully.",
+        "ok_proxy": "Proxy works — connected to Telegram successfully.",
+        "fail": "Failed to connect."
+      }
+    },
+    "login": {
+      "title": "Sign in to Telegram",
+      "need_auth": "Telegram account sign-in required.",
+      "qr": "Sign in with QR",
+      "phone": "Sign in by phone",
+      "cancel": "Cancel sign-in",
+      "hint": "We recommend QR sign-in — a separate window will open, scan the code in Telegram.\nFor phone sign-in the code arrives in the «Telegram» chat inside the app.\n«Next» is enabled after successful sign-in.",
+      "in_progress": "Signing in…",
+      "checking_session": "Checking saved session…",
+      "success": "✓ Signed in as: {user}",
+      "failed": "Sign-in failed",
+      "incomplete": "Sign-in not completed — try again",
+      "finishing": "Finishing sign-in attempt…",
+      "cancelled": "Sign-in cancelled — you can try again",
+      "wait_qr": "Waiting for QR scan…",
+      "wait": "Waiting for sign-in…"
+    },
+    "download": {
+      "title": "Download folder",
+      "quick": "Quick pick:",
+      "hint": "Default: data/downloads in the app folder. Cloud folders (OneDrive etc.) may slow downloads.",
+      "browse_title": "Choose download folder"
+    },
+    "finish": {
+      "title": "Done",
+      "body": "On the Home tab set a hashtag, adjust filters if needed (dates, channels, media types), then click «Preview» or «Download once».\n\nIn Settings — request limits, filenames and other options. Proxy can be changed there too.",
+      "notify": "Show Windows notifications when tasks finish",
+      "autotune": "Run performance check after closing the wizard",
+      "proxy_on": "✓ Proxy: {type} {host}:{port}",
+      "proxy_off": "✓ Proxy not used",
+      "api_ok": "✓ API ID and API Hash",
+      "api_fail": "✗ API ID and API Hash",
+      "login_ok": "✓ Signed in to Telegram",
+      "login_fail": "✗ Not signed in to Telegram",
+      "dir_ok": "✓ Download folder: {path}",
+      "dir_fail": "✗ Download folder: {path}"
+    },
+    "window": {
+      "title": "Setup wizard"
+    },
+    "btn": {
+      "back": "Back",
+      "next": "Next",
+      "finish": "Done",
+      "cancel": "Cancel",
+      "skip": "Skip"
+    },
+    "close": {
+      "title": "Close wizard?",
+      "login_body": "Telegram sign-in in progress.\nClose setup wizard?"
+    },
+    "closed": {
+      "title": "Wizard closed",
+      "body": "Setup can be done manually:\n• Settings tab — API, proxy and download folder;\n• Home tab — Telegram sign-in and hashtag search.\n\nYou can reopen the wizard with «Setup wizard…» in Settings.\nOn next launch the wizard opens again until you complete it."
+    }
+  },
+  "autotune": {
+    "button": {
+      "run": "Run performance check",
+      "apply": "Apply recommendations"
+    },
+    "progress": {
+      "phase": "Performance check",
+      "starting": "Preparing local benchmark scenarios…",
+      "done": "Performance check finished",
+      "failed": "Performance check failed",
+      "status": "Step {step}/{total}"
+    },
+    "dialog": {
+      "title": "Performance check",
+      "apply": "Apply recommendations",
+      "keep": "Keep current settings",
+      "open_settings": "Open settings"
+    },
+    "result": {
+      "generated": "Measured: {date}",
+      "preview_workers": "Recommended preview workers: {n}",
+      "download_workers": "Recommended download workers: {n}",
+      "batch_size": "Recommended preview batch size: {n}",
+      "preview_mode": "Recommended preview mode: {mode}",
+      "rationale": "Why these values:",
+      "reason": {
+        "sequential_faster": "Sequential preview was measurably faster on the synthetic preview workload.",
+        "regular_competitive": "Regular preview stayed competitive, so sequential preview is not forced.",
+        "download_workers_best": "Download workers {n} performed best on the local synthetic download scenario.",
+        "download_single_best": "Single download worker stayed safest and fastest on this machine.",
+        "batch_size_best": "Recommended preview batch size is {n} based on sequential preview latency.",
+        "rerun_ms": "Repeated-run check completed in {ms} ms."
+      },
+      "mode": {
+        "regular": "regular preview",
+        "sequential": "step-by-step preview"
+      }
+    },
+    "summary": {
+      "empty": "Performance check not run yet.",
+      "preview_workers": "Preview workers: {n}",
+      "download_workers": "Download workers: {n}",
+      "batch_size": "Preview batch: {n}",
+      "mode": "Mode: {mode}",
+      "applied": "Recommendations already applied.",
+      "full": "{summary}. Measured: {date}"
+    }
+  },
+  "auth": {
+    "error": {
+      "api_missing": "Fill in API ID and API Hash in Settings",
+      "not_logged_in": "Sign-in failed — phone number and Telegram code required"
+    },
+    "status": {
+      "checking": "Checking session…",
+      "logged_in": "✓ Signed in as: {user}",
+      "unauthorized": "Not authorized",
+      "waiting": "Waiting for Telegram sign-in…",
+      "waiting_qr": "Waiting for QR scan…"
+    },
+    "hint": {
+      "done": "Signed in. You can enter a hashtag and download.",
+      "connected_not_logged": "Connected but not signed in. Click «Sign in to Telegram» or «Sign in with QR».",
+      "no_connection": "No connection to Telegram servers. Try «Reset session» → «Sign in to Telegram».",
+      "need_login": "Click «Sign in to Telegram» or «Sign in with QR». Phone sign-in needs a code from the «Telegram» chat in the app."
+    },
+    "reset": {
+      "title": "Reset session",
+      "body": "Delete saved Telegram session?\n\nYou will need to sign in again with phone and code.",
+      "done_status": "Session reset — phone sign-in required",
+      "done_info": "Now click «Sign in to Telegram»."
+    },
+    "journal": {
+      "reset_title": "Reset journal",
+      "reset_body": "Delete all download journals for this session?\n\n(all hashtags: *_state.json)\nFiles in the download folder are not deleted.",
+      "reset_info": "On next download the app will check disk and download only what's missing."
+    },
+    "login": {
+      "already_running": "Authorization already in progress.",
+      "success_status": "Signed in",
+      "success_info": "You signed in as {user}",
+      "failed_status": "Sign-in failed",
+      "cancelled": "Sign-in cancelled",
+      "invalid_code": "Invalid confirmation code",
+      "invalid_phone": "Invalid phone number format",
+      "flood_wait": "Too many attempts. Wait {sec} sec.",
+      "resend_wait": "Wait {sec} sec. before resending.",
+      "connection_failed": "Failed to connect to account server: {exc}",
+      "code_send_failed": "Connection lost while sending code: {exc}",
+      "connect_failed": "Failed to connect to Telegram. {error}",
+      "telegram_error": "Telegram error: {exc}",
+      "qr_failed": "{type}: failed to show QR code",
+      "dc_switch_failed": "Failed to switch to DC{dc}"
+    },
+    "busy": "⏳ Signing in…",
+    "step1": {
+      "title": "Sign in to Telegram — step 1/3",
+      "prompt": "Enter phone number in international format:\n+79001234567"
+    },
+    "step2": {
+      "title": "Sign in to Telegram — step 2/3"
+    },
+    "step3": {
+      "title": "Sign in to Telegram — step 3/3"
+    },
+    "2fa": {
+      "title": "Sign in to Telegram — 2FA",
+      "prompt": "Two-factor authentication is enabled.\nEnter cloud password:",
+      "invalid": "Wrong cloud password.\nEnter password again:"
+    },
+    "code": {
+      "app": "A {length}-digit code was sent to the Telegram app.\n\nWhere to look:\n• Telegram Desktop — «Telegram» chat (service messages)\n• On phone — «Telegram» chat, not regular dialogs\n\nThis is not SMS. Check all devices where you're signed in to Telegram.",
+      "sms": "A {length}-digit code was sent via SMS to your number.\nCheck phone messages (not Telegram chats).",
+      "call": "A {length}-digit code will be dictated by phone call.\nAnswer the incoming call.",
+      "missed_call": "Code will arrive via missed call.\nCheck the last digits of the caller number{pattern}.",
+      "other": "Code sent via {type}.\nCheck Telegram and SMS on your phone.",
+      "resend_timeout": "\n\nResend available in {timeout} sec."
+    },
+    "migration": "Failed to connect to your account's DC{dc} server.\nTry «Reset session» and sign in again.\nIf that doesn't help — temporarily disable Cloudflare WARP during sign-in."
+  },
+  "worker": {
+    "status": {
+      "once": "Downloading #{tag}…",
+      "verify": "Verifying integrity…",
+      "preview": "Previewing…",
+      "integrity": "Downloading missing…",
+      "queue": "Downloading queue ({n} hashtags)…",
+      "task": "Task #{tag}…",
+      "stopped": "Stopped"
+    },
+    "log": {
+      "once": "Starting one-time download for #{tag}",
+      "verify": "Starting integrity check for #{tag}",
+      "preview": "Starting preview for #{tag}",
+      "integrity": "Downloading missing files for #{tag}",
+      "queue": "Starting queue download: {n} hashtags",
+      "task": "Starting task for #{tag}",
+      "integrity_count": "Top-up missing: {n} post(s)"
+    },
+    "error": {
+      "need_login": "Click «Sign in to Telegram» on the Home tab first.",
+      "unknown_mode": "Unknown task mode: {mode}"
+    },
+    "progress": {
+      "prep_preview": "Preparing preview…"
+    },
+    "preview": {
+      "empty_title": "Preview",
+      "empty_body": "No posts found or none passed media filters.\nCheck hashtag, channel and media types on the «Home» tab."
+    },
+    "dialog": {
+      "integrity": "Integrity check",
+      "download_results": "Download results",
+      "download_stopped": "Download interrupted"
+    }
+  },
+  "summary": {
+    "download": {
+      "title": "Download results",
+      "all_channels": " · all public channels"
+    },
+    "folder": "Folder: {path}",
+    "scope": {
+      "preview": "Selected in preview",
+      "search": "In Telegram results"
+    },
+    "publications": "  Publications: {n}{hint}",
+    "albums": "{n} albums",
+    "singles": "{n} singles",
+    "media_count": "  Media files: {n}",
+    "with_media": "  With media: {n}",
+    "filtered": {
+      "label": "  Filtered out: {n}{reasons}",
+      "reason": {
+        "excluded": "excluded hashtags: {n}",
+        "required": "required hashtags: {n}",
+        "media": "media type: {n}",
+        "date_channel": "date/channel: {n}"
+      }
+    },
+    "totals": "Totals",
+    "media_in_task": "  Media files in task: {n}",
+    "new_files": "  New files on disk: {n}",
+    "downloaded_pubs": "  Downloaded: {n} publications",
+    "duplicates": "  Same content: {n} (file already exists, not saved again)",
+    "reused": "  Already on disk: {n}",
+    "slots": "  Slots processed: {done} of {total}",
+    "pubs_skipped": "  Publications skipped entirely: {n}",
+    "redownloaded": "  Re-downloaded: {n} publications",
+    "shortfall": "  Not received: {n} files (Telegram didn't deliver or download failed)",
+    "sum": "  Sum: {total} = {parts}",
+    "sum_part": {
+      "new": "new {n}",
+      "reused": "on disk {n}",
+      "duplicates": "duplicates {n}",
+      "shortfall": "not received {n}"
+    },
+    "no_media": "  No media: {n} messages",
+    "all_done": "  Everything already downloaded — no new publications.",
+    "nothing": "  Nothing downloaded.",
+    "errors": "Errors: {n}",
+    "failed_ids": "  Failed (id): {ids}",
+    "no_errors": "No errors.",
+    "batches": "Batches (hashtag × channel): {n}",
+    "stopped": "Download was interrupted before completion.",
+    "integrity": {
+      "title": "Integrity check",
+      "hashtag": "Hashtag: #{tag}",
+      "channel": "Channel: {name}",
+      "found": "Posts in channel (after filters): {n}",
+      "albums_collapsed": "  Collapsed in results: {n} (same album repeats — Telegram returns each photo as a separate post)",
+      "media_files": "Media files (albums counted): {n}",
+      "on_disk": "Files on disk: {n}",
+      "skipped": "Skipped: {n}",
+      "dedup": "  · hash duplicates: {n} (different posts reference one file)",
+      "missing": "  · missing on disk: {n}",
+      "missing_ids": "  Post IDs: {ids}",
+      "extra": "Extra files in folder (no post in selection): {n}"
+    }
+  },
+  "batch": {
+    "hint": {
+      "tags_channels": "Batch: {tags} {tag_word} × {channels} {ch_word} = {total} {search_word}",
+      "tags_only": "Batch: {tags} {tag_word} — {total} {search_word} (separate folder each)",
+      "channels_only": "Batch: {channels} {ch_word} — {total} {search_word}"
+    },
+    "plural": {
+      "search": [
+        "search",
+        "searches"
+      ],
+      "hashtag": [
+        "hashtag",
+        "hashtags"
+      ],
+      "channel": [
+        "channel",
+        "channels"
+      ]
+    }
+  },
+  "setup": {
+    "dir": {
+      "create_failed": "Failed to create folder «{path}»: {exc}",
+      "not_folder": "The specified path is not a folder.",
+      "not_writable": "Cannot write files to folder «{path}»."
+    }
+  },
+  "errors": {
+    "flood_wait": "Telegram asks to wait {sec} sec. (too many requests). Waiting will start automatically.",
+    "channel_private": "Channel is private or unavailable. Check @username and channel access.",
+    "channel_invalid": "Invalid channel name. Use @username or t.me/… link.",
+    "channel_not_found": "No channel with this name found.",
+    "timeout": "Telegram did not respond in time. Check internet or proxy settings.",
+    "session_expired": "Session expired. Click «Reset session» and sign in again.",
+    "no_connection": "No connection to Telegram. Check internet or proxy in Settings.",
+    "generic": "Telegram error: {text}",
+    "network": "No internet connection or Telegram unavailable. Check network and proxy.",
+    "connect_server": "Failed to connect to server. Check internet and proxy.",
+    "validation": {
+      "hashtag_empty": "Hashtag cannot be empty",
+      "date_invalid": "Invalid date: {raw}. Use YYYY-MM-DD or DD.MM.YYYY",
+      "date_range": "«From» date cannot be after «to» date",
+      "api_missing": "Set API_ID and API_HASH in settings.\nGet keys at: https://my.telegram.org/apps"
+    },
+    "qr_timeout": "Failed to show QR code window",
+    "qr_image": "Failed to generate QR code image",
+    "channel_resolve": "Channel «{name}» not found. Specify @username or a t.me/… link",
+    "preview_channel_unknown": "Could not determine channel for post {id}"
+  },
+  "progress": {
+    "phase": {
+      "idle": "Waiting",
+      "search": "Searching posts",
+      "preview": "Preview",
+      "download": "Downloading",
+      "verify": "Verifying integrity"
+    },
+    "detail": {
+      "checking_disk": "Checking files on disk…",
+      "verified_posts": "Verified {done} of {total} posts",
+      "verify_done": "Verification complete",
+      "batch_start": "Starting #{tag}…",
+      "album_done": "Album already processed: {index}/{total}",
+      "skip_on_disk": "Skip (already on disk): {index}/{total}",
+      "skip_no_media": "Skip (no media): {index}/{total}",
+      "skip": "Skip: {index}/{total}",
+      "file_error": "File error: post {id}",
+      "post_error": "Post {id} error: {notice}",
+      "post_error_continue": "Post {id} error, continuing…",
+      "parse_albums": "Parsing albums before download…",
+      "prep_download": "Preparing download…",
+      "done_new_files": "Done · new files on disk: {n}",
+      "downloading_file": "Downloading: {filename}",
+      "paused": "Paused — click «Resume» to continue",
+      "flood_wait": "Waiting for Telegram (FloodWait): {sec} sec…",
+      "search_scope_media": "{scope}: {used}/{limit} media",
+      "search_scope_messages": "{scope}: {messages} messages",
+      "search_in_channel": "Searching in channel…",
+      "search_posts": "Searching posts…",
+      "stopped": "Stopped",
+      "scope_global": "Global search",
+      "scope_channel": "Channel search",
+      "download_progress": "Processed {accounted}/{goal} · new files: {files} · publications {posts}/{pubs}"
+    }
+  },
+  "queue": {
+    "progress": {
+      "label": "Queue: {i} of {total} · #{tag}{channel}"
+    }
+  },
+  "crash": {
+    "title": "Crash ({date})",
+    "title_plain": "Crash",
+    "detail": "Mode: {mode} · #{tag} · channel: {channel}\nAt crash: {progress}",
+    "all_channels": "all",
+    "abrupt": "Process ended without normal task completion",
+    "mode": {
+      "once": "download",
+      "watch": "monitoring",
+      "preview": "preview",
+      "verify": "integrity check",
+      "integrity_download": "top-up"
+    },
+    "progress": {
+      "phase": "phase: {phase}",
+      "processed": "processed {processed}/{total}"
+    }
+  },
+  "login": {
+    "prompt": {
+      "title": "Telegram sign-in required",
+      "heading": "Saved session is invalid",
+      "default_error": "Sign-in failed — enter phone number and code from Telegram.",
+      "hint": "Code arrives in the «Telegram» chat inside the app. QR opens in a separate window.",
+      "later": "Later",
+      "qr": "Sign in with QR",
+      "phone": "Sign in to Telegram"
+    },
+    "qr": {
+      "title": "Sign in with QR code",
+      "instructions": "Open Telegram on your phone:\nSettings → Devices → Link Desktop Device\nand scan this code.",
+      "waiting": "Waiting for scan…"
+    }
+  },
+  "viewer": {
+    "title": "Photo viewer",
+    "native_size": "Original size (with scrolling)",
+    "hint": "Double-click thumbnail · Esc — close",
+    "close": "Close",
+    "loading_with_thumb": "Loading original from Telegram… (thumbnail shown for now; reopening will be instant)",
+    "loading": "Loading original from Telegram…",
+    "unavailable": "Original unavailable.",
+    "load_failed": "Failed to load image",
+    "display_failed": "Failed to display image",
+    "mode": {
+      "native": "original size",
+      "fitted": "fitted to window ({w}×{h})",
+      "unscaled": "not scaled down"
+    },
+    "loading_suffix": "· loading full file…",
+    "status": "Post {id} · {native} · {mode}{suffix}",
+    "cached": "Post {id} · {w}×{h} px · from cache",
+    "error_fallback": "{error} · thumbnail kept"
+  },
+  "preview_flow": {
+    "finishing": "Finishing preview…",
+    "thumbs_progress": "Thumbnails: {n}/{total} · media: {ready}/{total}",
+    "thumbs_only": "Thumbnails: {n}",
+    "error": {
+      "cancelled": "Download cancelled",
+      "no_connection": "No active connection to Telegram",
+      "original_timeout": "Original download timed out"
+    },
+    "indexing": "Indexing publications for step-by-step preview…",
+    "indexing_tag": "Indexing #{tag}{channel}: {n} publications with media",
+    "sequential_start": "Step-by-step preview: {publications} publications, {media}",
+    "sequential_media_limit": "limit {n} media files",
+    "sequential_media_at_least": "at least {n} media files",
+    "sequential_media_count": "{n} media files",
+    "batch_downloaded": "Batch {n}: downloaded {files} files (total {total})",
+    "opening_preview": "Found {n} posts for #{tag}, opening preview…"
+  },
+  "date": {
+    "not_selected": "not selected",
+    "placeholder_tip": "Opens calendar — filter activates only after picking a date"
+  },
+  "field": {
+    "list_placeholder": "Comma-separated list or drag .txt"
+  },
+  "log": {
+    "settings": {
+      "saved": "Settings saved.",
+      "save_failed": "Settings not saved: {exc}",
+      "save_error": "Failed to save settings: {exc}",
+      "theme_failed": "Failed to save theme: {exc}"
+    },
+    "task": {
+      "paused": "Task paused.",
+      "resumed": "Task resumed.",
+      "waiting_stop": "Waiting for task to stop…"
+    },
+    "crash": {
+      "dump_found": "Diagnostic dump from previous run found: {path}"
+    },
+    "worker": {
+      "integrity_refs": "Top-up missing: {n} post(s)",
+      "queue_list": "Queue: {tags}",
+      "date_filter": "Date filter: from {date_from} to {date_to}",
+      "execution_error": "Execution error: {exc}",
+      "running_as": "Running as: {user}",
+      "integrity_finished": "Integrity check finished.",
+      "topup_cancelled": "Top-up cancelled.",
+      "topup_nothing": "Nothing selected for top-up.",
+      "sequential_cancelled": "Step-by-step preview cancelled.",
+      "sequential_nothing": "Step-by-step preview: nothing downloaded.",
+      "no_preview_posts": "No posts with media for preview.",
+      "preview_cancelled": "Preview cancelled.",
+      "nothing_selected": "Nothing selected for download."
+    },
+    "auth": {
+      "session_reset": "Session reset. Files removed: {files}",
+      "session_none": "none",
+      "journal_reset": "Download journals reset: {files}",
+      "journal_not_found": "no files found",
+      "login_start": "Starting Telegram sign-in…",
+      "qr_start": "Starting QR sign-in…"
+    },
+    "preview_flow": {
+      "loading_media": "Loading preview media ({n})…",
+      "dialog_error": "Preview window error",
+      "dialog_timeout": "Preview dialog did not open in time",
+      "sequential_dialog_error": "Step-by-step preview window error",
+      "sequential_dialog_timeout": "Step-by-step preview dialog did not open in time",
+      "batch_skipped": "Batch {n} skipped",
+      "batch_memory_freed": "Batch {n}: preview memory freed",
+      "parallel_thumbs": "Parallel thumbnail loading while collecting cards…",
+      "list_ready": "Preview list ready: {n} media files",
+      "cancelled_by_user": "Preview cancelled by user ({n} media files collected)"
+    },
+    "download": {
+      "parallel_workers": "Parallel download: up to {n} concurrent downloads",
+      "sequential": "Download: sequential (1 thread)",
+      "saved": "Downloaded: {path}",
+      "hash_duplicate": "Hash duplicate, using: {path}",
+      "file_error": "Failed to save file for post {id}: {exc}",
+      "telegram_error": "Telegram error for post {id}: {exc}",
+      "channel_flood": "FloodWait getting channel for post {id}: wait {sec} sec.",
+      "channel_retry_failed": "Failed to get channel for post {id}: {exc}",
+      "channel_failed": "Failed to get channel for post {id}: {exc}",
+      "neighbors_failed": "Failed to read neighboring posts {id}: {exc}",
+      "album_failed": "Failed to get album {id}: {exc}",
+      "album_redownload": "Album top-up: {on_disk} of {total} slots on disk — post {id}",
+      "redownload": "Re-download: files missing — post {id}",
+      "post_failed": "Failed to process post {id}: {type}: {exc}",
+      "album_expanded": "Album {id}: loaded {n} frames (expected {expected})",
+      "album_short": "Album {id}: Telegram returned {n} of {expected} frames",
+      "retry": "Attempt {attempt}/{attempts} for post {id}: {exc}",
+      "retry_exc": "Attempt {attempt}/{attempts} for post {id}: {type}: {exc}"
+    },
+    "search": {
+      "in_channel": "Searching #{tag} inside channel (not global)…",
+      "channel_flood": "FloodWait during channel search: wait {sec} sec.",
+      "date_boundary": "Lower date boundary reached — search complete.",
+      "flood_wait": "FloodWait: wait {sec} sec.",
+      "channel_done": "Channel search complete: {messages} messages, {media} media",
+      "global_found": "Found (global search): {messages} messages, {media} media"
+    },
+    "integrity": {
+      "channel_not_found": "Could not find channel «{key}» for top-up",
+      "channel_mode": "Mode: searching #{tag} INSIDE channel «{title}» (@{filter}) — not global Telegram",
+      "global_search": "Global search #{tag} across all public Telegram channels…",
+      "totals": "Total: found {found}, after filters {filtered} (with media: {media})"
+    },
+    "preview": {
+      "albums_fetched": "Fetched {n} albums for preview (in place, before showing cards)",
+      "optimize_failed": "Preview optimization {source}: {exc}",
+      "refresh_failed": "Refresh post {id} for original: {exc}",
+      "original_failed": "Original for post {id}: {error}",
+      "preview_flood": "FloodWait during preview post {id}: wait {sec} sec.",
+      "preview_thumb_failed": "Preview for post {id} (thumb={thumb}): {exc}",
+      "pool_shutdown_failed": "Failed to shut down preview pool cleanly: {exc}",
+      "original_shown": "Post {id} showing {label} (full file unavailable)"
+    },
+    "auth_telegram": {
+      "broken_session": "Broken session on DC{dc} — clearing",
+      "dc_pick": "Telegram requests DC{dc} — picking working server…",
+      "dc_switch": "Telegram requests switch to DC{dc}",
+      "code_after_migration": "Code requested after migration: {type}",
+      "connecting": "Connecting to Telegram…",
+      "already_authorized": "Already authorized as: {user}",
+      "code_request": "Requesting code for {phone}…",
+      "code_resend": "Resending code…",
+      "login_success": "Sign-in successful: {user}",
+      "connecting_qr": "Connecting to Telegram (QR)…",
+      "qr_waiting": "QR code shown, waiting for scan…",
+      "qr_success": "QR sign-in successful: {user}",
+      "login_error": "Sign-in error",
+      "qr_login_error": "QR sign-in error",
+      "dc_try": "Trying DC{dc} ({ip}) {mode} ipv6={ipv6}…",
+      "dc_connected": "Connected via DC{dc} ({ip}) {mode}",
+      "dc_fail": "DC{dc} ({ip}) {mode}: {exc}",
+      "phone_dc_switch": "Number {phone} → DC{target} (current DC{current}), switching early…",
+      "code_requested_detail": "Code requested: {type}, resend in {timeout} sec.",
+      "dc_unreachable": "DC{dc} unreachable"
+    },
+    "state": {
+      "journal_migrated": "Journal migrated to SQLite: {name} (backup: {backup})",
+      "journal_rename_failed": "Failed to rename JSON journal {path}: {exc}"
+    },
+    "disk": {
+      "index_sidecar": "Disk index from sidecar: {root} ({n} id)",
+      "index_rebuilt": "Disk index rebuilt: {root} ({n} id)"
+    },
+    "control": {
+      "flood_wait": "FloodWait: wait {sec} sec."
+    },
+    "crash_dump": {
+      "written": "Diagnostic dump written: {path}",
+      "stale_heartbeat": "Incomplete previous run detected, dump written: {path}",
+      "write_failed": "Failed to write crash dump",
+      "write_failed_thread": "Failed to write crash dump from thread"
+    },
+    "history": {
+      "read_failed": "Hashtag history not read ({target}): {exc}"
+    },
+    "cli": {
+      "logged_in": "Signed in as: {user}",
+      "no_env": "No .env file found. Create it via GUI.",
+      "integrity_for": "Integrity check for #{tag}",
+      "hashtag": "Hashtag: #{tag}",
+      "stopped": "Stopped by user.",
+      "done": "Done. Posts with media: {posts}, files: {files}, skipped: {skipped}",
+      "need_gui_login": "Sign in to Telegram via the GUI first (Sign in or QR).",
+      "need_hashtag": "Specify a hashtag: python main.py --cli --hashtag NAME",
+      "description": "Global hashtag search in Telegram and media download.",
+      "help_cli": "Run in console instead of GUI",
+      "help_hashtag": "Hashtag without #",
+      "help_verify": "Integrity check without downloading"
+    },
+    "none": "—",
+    "unknown_error": "Unknown error",
+    "notify": {
+      "app_model_failed": "AppUserModelID not set",
+      "toast_failed": "PowerShell toast failed",
+      "tray_fallback_failed": "Tray fallback failed"
+    },
+    "preview_index": {
+      "fetch_failed": "Failed to load post {id} ({tag}): {exc}"
+    },
+    "dl_utils": {
+      "hash_skip_large": "Skipping hash dedup for large file ({mb} MB): {name}",
+      "verify_hash_mismatch": "VERIFY_HASH_DEDUP: hash mismatch for {path}"
+    }
+  },
+  "notify": {
+    "app_short_name": "Hashtag Downloader"
+  },
+  "sequential": {
+    "title": "Step-by-step preview: {batch}",
+    "batch_approx": "batch {n} of ~{total}",
+    "batch_exact": "batch {n} of {total}",
+    "media_limit": "media {shown}/{limit}",
+    "media_at_least": "media {shown}, in search ≥{estimate}",
+    "media_estimate": "media {shown}/{estimate}",
+    "publications": "publications {cursor}/{total}",
+    "downloaded": "downloaded {n}"
+  }
+}
