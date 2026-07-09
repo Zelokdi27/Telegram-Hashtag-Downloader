@@ -1,6 +1,6 @@
 # Telegram Hashtag Downloader
 
-**v1.0.0** · Windows · Author: **Zelokdi** · [Telegram @Zelokdi](https://t.me/Zelokdi)
+**v1.0.0** · Windows
 
 Desktop app for downloading media from public Telegram channels by hashtag.
 
@@ -20,4 +20,3 @@ Desktop app for downloading media from public Telegram channels by hashtag.
 - [Releases](https://github.com/Zelokdi27/Telegram-Hashtag-Downloader/releases) — Windows `.exe` (portable zip)
 - [License](LICENSE) — MIT
 
-**Unofficial** Telegram client. Not affiliated with Telegram.
